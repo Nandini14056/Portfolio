@@ -1,7 +1,6 @@
 import '../App.css';
 import node from '../assets/nodejs.svg';
 import express from '../assets/express.webp';
-import next from '../assets/next.png';
 import mongodb from '../assets/mongodb.png';
 
 const BackendSkillCard = () => {
@@ -19,13 +18,6 @@ const BackendSkillCard = () => {
         <h3>Express</h3>
         <div className="progress">
           <div className="progress-fill" style={{ width: "90%" }}></div>
-        </div>
-      </div>
-      <div className="skill-card">
-        <img src={next} alt="react" />
-        <h3>Next.js</h3>
-        <div className="progress">
-          <div className="progress-fill" style={{ width: "50%" }}></div>
         </div>
       </div>
       <div className="skill-card">
