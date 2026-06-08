@@ -13,8 +13,7 @@ const ProjectCard = () => {
             <span className="tag">React</span>
             <span className="tag">API</span>
             <div className="project-buttons">
-              <button className="btn-primary"><a href={project.link} >Live Demo</a></button>
-              <button className="btn-outline"><a href="https://github.com/Nandini14056">GitHub</a></button>
+              <button className="btn-primary"><a href={project.link} >GitHub</a></button>
             </div>
           </div>
         </div>
