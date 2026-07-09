@@ -1,5 +1,6 @@
 import weather from './assets/wether.png';
 import campus from './assets/campus.png';
+import interviewCoach from './assets/interviewCoach.png'
 
 const Projects = [
   {
@@ -15,7 +16,14 @@ const Projects = [
     tech: "React.js, Node.js, Express.js, MongoDB",
     image: campus,
     link: `https://github.com/Nandini14056/CampusEats`
-  }
+  },
+  {
+  title: "AI Interview Coach",
+  description: "A full-stack AI interview platform that generates role-specific mock interviews, analyzes user responses, provides AI-powered feedback, tracks interview history, and helps candidates prepare for real-world technical and HR interviews.",
+  tech: "React.js, Node.js, Express.js, MongoDB, Groq API, JWT, Multer",
+  image: interviewCoach,
+  link: `https://github.com/Nandini14056/AI-Interview-Coach`
+}
 ];
 
 export default Projects;
