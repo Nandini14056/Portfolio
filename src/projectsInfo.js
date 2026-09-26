@@ -1,14 +1,14 @@
-import weather from './assets/wether.png';
 import campus from './assets/campus.png';
+import interview from './assets/interview.png';
 import resumeAnalyzer from './assets/resumeAnalyzer.png';
 
 const Projects = [
   {
-    title: "Weather app",
-    description: "A responsive weather application that displays real-time weather data using a public API.",
-    tech: ["HTML", "CSS" , "JS"],
-    image: weather,
-    link: `https://github.com/Nandini14056/weather-forecast-app`
+    title: "AI-powered Interview Coach",
+    description: "An AI-powered interview platform that generates personalized questions and provides instant feedback and performance analysis.",
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Groq API"],
+    image: interview,
+    link: `https://github.com/Nandini14056/AI-Interview-Coach`
   },
   {
     title: "CampusEats",
