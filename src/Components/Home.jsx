@@ -15,7 +15,7 @@ const Home = () => {
         <button className="btn-primary">
           <a href="#projects">View Projects</a>
         </button>
-        <a href={Resume} download="Nandini Resume.pdf">
+        <a href={Resume} download="Nandini_Raulji_Resume.pdf">
           <button className="btn-outline">Download Resume</button>
         </a>
       </div>
