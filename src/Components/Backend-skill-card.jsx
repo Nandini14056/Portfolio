@@ -1,7 +1,7 @@
-import '../App.css';
-import node from '../assets/nodejs.svg';
-import express from '../assets/express.webp';
-import mongodb from '../assets/mongodb.png';
+import "../App.css";
+import node from "../assets/nodejs.svg";
+import express from "../assets/express.webp";
+import mongodb from "../assets/mongodb.png";
 
 const BackendSkillCard = () => {
   return (
@@ -28,7 +28,7 @@ const BackendSkillCard = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default BackendSkillCard;

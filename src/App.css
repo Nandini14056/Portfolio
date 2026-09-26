@@ -56,7 +56,7 @@ button:hover {
   gap: 30px;
   z-index: 100;
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid #e5e7eb;
@@ -113,7 +113,7 @@ button:hover {
   overflow: hidden;
 
   border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 
   background:
     radial-gradient(circle at top left, #e0f2fe, transparent),
@@ -227,7 +227,7 @@ button:hover {
 
 .btn-outline:hover {
   transform: translate(-4px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 /* ---------- ABOUT ---------- */
@@ -266,7 +266,7 @@ button:hover {
   background: #ffffff;
   padding: 15px 20px;
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   text-align: center;
   transition: 0.3s;
 }
@@ -328,7 +328,7 @@ button:hover {
   padding: 20px;
   border-radius: 16px;
   text-align: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
 
@@ -357,7 +357,7 @@ button:hover {
 }
 
 .skill-card:hover {
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 /* ---------- PROJECTS ---------- */
@@ -365,7 +365,7 @@ button:hover {
   background: white;
   padding: 2.5rem;
   border-radius: 14px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 .project-container {
@@ -448,7 +448,7 @@ button:hover {
   color: #6366f1;
 }
 
-.btn-primary a{
+.btn-primary a {
   color: white;
 }
 
@@ -586,9 +586,10 @@ button:hover {
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
   border: 1px solid transparent;
-  background: linear-gradient(white, white) padding-box,
+  background:
+    linear-gradient(white, white) padding-box,
     linear-gradient(to right, #6366f1, #ec4899) border-box;
 }
 

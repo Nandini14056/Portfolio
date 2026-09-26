@@ -1,11 +1,10 @@
-import '../App.css';
-import git from '../assets/git.png';
-import github from '../assets/github.png';
+import "../App.css";
+import git from "../assets/git.png";
+import github from "../assets/github.png";
 
 const ToolSkillCard = () => {
   return (
     <div className="skill-cards">
-
       <div className="skill-card">
         <img src={git} alt="react" />
         <h3>Git</h3>
@@ -21,7 +20,7 @@ const ToolSkillCard = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ToolSkillCard;

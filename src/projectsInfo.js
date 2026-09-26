@@ -18,12 +18,12 @@ const Projects = [
     link: `https://github.com/Nandini14056/CampusEats`
   },
   {
-  title: "AI Powered Resume Analyzer",
-  description: "Built an AI-powered resume analyzer that evaluates resumes and provides ATS-based feedback.",
-  tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Groq API", "JWT"],
-  image: resumeAnalyzer,
-  link: `https://github.com/Nandini14056/AI-Resume-Analyzer`
-}
+    title: "AI Powered Resume Analyzer",
+    description: "Built an AI-powered resume analyzer that evaluates resumes and provides ATS-based feedback.",
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Groq API", "JWT"],
+    image: resumeAnalyzer,
+    link: `https://github.com/Nandini14056/AI-Resume-Analyzer`
+  }
 ];
 
 export default Projects;

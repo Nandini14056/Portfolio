@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import useFadeIn from "../FadeEffect";
-import '../App.css'
+import "../App.css";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -28,10 +28,18 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <a href="#home" className={active === "home" ? "active" : ""}>Home</a>
-      <a href="#about" className={active === "about" ? "active" : ""}>About</a>
-      <a href="#skills" className={active === "skills" ? "active" : ""}>Skills</a>
-      <a href="#projects" className={active === "projects" ? "active" : ""}>Projects</a>
+      <a href="#home" className={active === "home" ? "active" : ""}>
+        Home
+      </a>
+      <a href="#about" className={active === "about" ? "active" : ""}>
+        About
+      </a>
+      <a href="#skills" className={active === "skills" ? "active" : ""}>
+        Skills
+      </a>
+      <a href="#projects" className={active === "projects" ? "active" : ""}>
+        Projects
+      </a>
     </div>
   );
 };

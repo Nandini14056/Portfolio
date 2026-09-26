@@ -1,5 +1,5 @@
-import '../App.css';
-import ProjectCard from './ProjectsCard';
+import "../App.css";
+import ProjectCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
@@ -11,7 +11,7 @@ const Projects = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
